@@ -49,3 +49,7 @@ as can be seen here, Parameters/UserBuffer are the pointer provided by the user 
 first 4 bytes as least significant bytes and the second 4 bytes provided will be the most significant 4 bytes. input does not have to be the 
 struct i mentioned here, its probably some sort of obfuscation with IDA but i just had to provide an input of atleast 8 bytes with the address
 to nullify its content at the first 8 bytes
+
+# Primitive exposed with this vulnurability:
+the ability to zero out any kernel mode valid address \ crash the system with access violation as result of writing into an invalid address (which is not really
+possible because of the exception handler)
