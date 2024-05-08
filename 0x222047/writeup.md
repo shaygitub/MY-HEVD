@@ -1,4 +1,5 @@
-![image](https://github.com/shaygitub/MY-HEVD/assets/122000611/574a740d-8e4e-4408-8ce1-81819e9c19c4)# First review of 0x222047 (WriteNULLIoctlHandler):
+# First review of 0x222047 (WriteNULLIoctlHandler):
+![image](https://github.com/shaygitub/MY-HEVD/assets/122000611/574a740d-8e4e-4408-8ce1-81819e9c19c4)
 if parameters are provided to the operation via the NAMED_PIPE_CREATE_PARAMETERS in Irp->Parameters.CreatePipe.Parameters the operation continues,
 otherwise the operation returns STATUS_UNSUCCESSFUL. means:
 the driver needs parameters for named pipe creation.
