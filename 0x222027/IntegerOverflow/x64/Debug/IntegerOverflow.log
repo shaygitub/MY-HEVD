@@ -1,0 +1,6 @@
+﻿  IntegerOverflow.cpp
+H:\Reversing Drivers\HEVD\IntegerOverflow\IntegerOverflow.cpp(10,12): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'size_t'
+  H:\Reversing Drivers\HEVD\IntegerOverflow\IntegerOverflow.cpp(10,12):
+  consider using '%zx' in the format string
+  
+  IntegerOverflow.vcxproj -> H:\Reversing Drivers\HEVD\IntegerOverflow\x64\Debug\IntegerOverflow.exe
